@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 // import required modules
 import { Pagination } from "swiper/modules";
 
-import "./recordatorio.css";
+import "./Recordatorio.css";
 
 const Recordatorio = () => {
   return (
