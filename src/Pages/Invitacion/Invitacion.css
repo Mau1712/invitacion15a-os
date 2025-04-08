@@ -1,0 +1,109 @@
+.invitacionContainerFather {
+  padding: 0%;
+}
+
+.invitacionContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgBox {
+  width: 50%;
+  padding-inline: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgBox img {
+  width: 100%;
+  max-width: 763px;
+}
+
+.infoBox {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-inline: 20px;
+}
+
+.imgIfoBox img {
+  width: 300px;
+  margin-top: 25px;
+}
+
+.dateBox {
+  position: relative;
+}
+
+.borderDateBox {
+  height: 60px;
+  width: 160px;
+  border: solid 1px rgb(212, 165, 143);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.dateBox p {
+  color: rgb(212, 165, 143);
+  font-size: 35px;
+  margin: 0%;
+  background-color: white;
+  line-height: 35px;
+}
+
+.titlleBoxInv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+}
+
+.titlleBoxInv h2 {
+  font-family: "Pacifico", cursive;
+  font-size: 90px;
+  color: rgb(212, 165, 143);
+  font-weight: 500;
+  margin: 0%;
+}
+
+.titlleBoxInv h4 {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(255, 156, 150);
+}
+
+.titlleBoxInv img {
+  width: 30px;
+  margin-block: 15px;
+}
+
+.titlleBoxInv p {
+  font-size: 20px;
+  color: rgb(255, 156, 150);
+  line-height: 22px;
+}
+
+@media screen and (max-width: 768px) {
+  .invitacionContent {
+    flex-direction: column;
+  }
+
+  .imgBox {
+    width: 100%;
+    padding-inline: 20px;
+  }
+
+  .infoBox {
+    width: 100%;
+  }
+}

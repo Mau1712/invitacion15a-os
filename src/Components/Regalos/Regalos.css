@@ -1,0 +1,29 @@
+.regalosContainr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.regalosContainr h2 {
+  font-size: 42px;
+  color: #d4a58f;
+}
+
+.regalosContainr p {
+  font-size: 20px;
+  color: #dba19c;
+}
+
+.regalosContainr button {
+    border: none;
+    background: #f6dedefc;
+    padding: 15px 45px;
+    color: white;
+    font-weight: 500;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}

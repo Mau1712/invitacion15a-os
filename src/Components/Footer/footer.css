@@ -1,0 +1,36 @@
+.footerContainer footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-block: 50px;
+}
+
+.tittleFooter h2 {
+  font-family: "Pacifico", cursive;
+  font-size: 90px;
+  color: rgb(212, 165, 143);
+  font-weight: 500;
+  margin: 0%;
+}
+
+.tittleFooter p {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(255, 156, 150);
+  text-align: center;
+}
+
+.funciones {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.funciones button {
+  border: none;
+  background-color: white;
+  color: rgb(212, 165, 143);
+}

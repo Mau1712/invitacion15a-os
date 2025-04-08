@@ -1,0 +1,90 @@
+/* Counter.css */
+
+.conterFather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 50px;
+}
+
+.containerContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 700px;
+
+  position: relative;
+}
+
+.containerContent img {
+  width: 100%;
+}
+
+.timerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 250px;
+  position: absolute;
+}
+
+.timerContainer h2 {
+  font-family: "Pacifico", cursive;
+  font-size: 70px;
+  color: rgb(212, 165, 143);
+  font-weight: 500;
+  margin: 0%;
+}
+
+.timerContainer img {
+  width: 50px;
+}
+
+.timerTimes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.timeBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeBox .timeValue {
+  font-size: 22px;
+  color: rgb(212, 165, 143);
+  line-height: 22px;
+  font-weight: 600;
+}
+
+.timeLabel {
+  font-size: 14px;
+  color: rgb(212, 165, 143);
+  line-height: 22px;
+}
+
+
+@media screen and (max-width: 550px) {
+  .conterFather {
+    margin-block: 0px;
+  }
+
+  .timerContainer {
+    height: 170px;
+  }
+
+  .timerContainer h2 {
+    font-size: 50px;
+  }
+
+  .timerTimes {
+    gap: 20px;
+  }
+
+}

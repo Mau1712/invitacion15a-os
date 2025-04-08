@@ -1,0 +1,84 @@
+.homeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+}
+
+.imgHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+}
+
+.imgHome img {
+  width: 100%;
+}
+
+.homeTittle {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.homeTittle h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(255, 156, 150);
+}
+
+.homeTittle h2 {
+  font-family: "Pacifico", cursive;
+  font-size: 90px;
+  color: rgb(212, 165, 143);
+  font-weight: 500;
+  margin: 0%;
+}
+
+.homeMusic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.homeMusicText p {
+  font-size: 20px;
+  color: rgb(255, 156, 150);
+}
+
+.homeMusicButtons {
+  display: flex;
+  gap: 20px;
+}
+
+.homeMusicButtons button {
+  max-width: 260px;
+  border: none;
+  background-color: rgb(219, 161, 156);
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 10px 50px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+    .homeMusicButtons button {
+        padding-inline: 25px;
+    }
+
+  .homeTittle h3 {
+    font-size: 35px;
+  }
+
+  .homeTittle h2 {
+    font-size: 80px;
+  }
+}

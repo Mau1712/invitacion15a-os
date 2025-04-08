@@ -1,0 +1,51 @@
+.fiestaUnoContainer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.tittleFiestaUno {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.tittleFiestaUno h2 {
+    font-family: "Pacifico", cursive;
+    font-size: 80px;
+    /* background-color: #f6dedefc; */
+    color: #D4A58F;
+    font-weight: 500;
+    margin: 0%;
+    width: max-content;
+    padding: 15px 50px;
+    /* border-radius: 30% 40% 40% 20% / 20% 10% 30% 50%; */
+}
+
+.fiestaUnoItem h4 {
+    color: #f6dedefc;
+    font-family: "Pacifico", cursive;
+    font-size: 35px;
+}
+
+.fiestaUnoItem p {
+    color: #DBA19C;
+}
+
+.fiestaUnoItem button {
+    background-color: #f6dedefc;
+    border: none;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 50px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+/* ---------------------------------- */
+
+.partyIconBox img {
+    width: 100px;
+}
