@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Modal from "../Modal/Modal";
 import { Container } from "react-bootstrap";
-import "./Footer.css"
+import "./footer.css"
 
 const Footer = () => {
   const [modalOpen, setModalOpen] = useState(false);
