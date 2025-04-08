@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from "react-route
 import { AnimatePresence } from "framer-motion"; // 👈
 import Home from "./Pages/Home/Home";
 import Invitacion from "./Pages/Invitacion/Invitacion";
-import PageTransition from "./components/PageTransition"; // 👈 nuestro nuevo envoltorio
+import PageTransition from "./Components/PageTransition"
 
 const AppRoutes = () => {
   const location = useLocation(); // 👈 Necesitamos la ubicación actual
